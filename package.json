@@ -1,0 +1,31 @@
+{
+  "name": "gitbook-plugin-usabilla",
+  "version": "1.0.0",
+  "description": "Add usabilla code to gitbook ",
+  "scripts": {
+    "test": "echo \"No Tests\""
+  },
+  "keywords": [
+    "gitbook",
+    "usabilla",
+    "analytics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtolb/gitbook-plugin-usabilla"
+  },
+  "author": "Dan Tolbert",
+  "license": "MIT",
+  "engines": {
+    "gitbook": ">=3.0.0-pre.0"
+  },
+  "gitbook": {
+    "properties": {
+      "usabillaId": {
+        "description": "Identify your js name",
+        "required": true,
+        "type": "string"
+      }
+    }
+  }
+}
